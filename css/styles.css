@@ -1,0 +1,238 @@
+nav ul li a{
+     text-decoration: none;
+     color: rgba(71,71,71,1)
+}
+nav ul li{
+
+    list-style: none;
+    margin-right: 51px;
+}
+nav li{
+    display: flex;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;  
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 226px;
+    margin-top: 51px;
+
+    
+}
+.highlight-r{
+         color:#FD6E0A
+}
+h3{
+   font-weight: 900;
+}
+.open-sans{
+     font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+nav{
+      margin-left: 20px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fef7f2;
+    padding: 18px 35px 19px 36px;
+    border-radius: 5px;
+    border: none;
+}
+.header{
+    background-image: url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: top left ;  
+    background-color: #FFF8F3;
+}  
+.header1{
+     background-image: url('../images/header_bg.png'),url('../images/header_bg.png');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+} 
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+#btn-secondary{
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FD6E0A;
+    padding: 18px 35px 19px 36px;
+    border-radius: 5px;
+    border-color: #FD6E0A;
+}
+.banner-content{
+    height: 356px;
+    width: 585px;
+    margin-left: 230px;
+
+}
+.mary{
+    font-size: 45px;
+    margin-top: 51px;
+    margin-left: 210px;
+}
+.aboutsection{
+    justify-content: center;
+    align-items: center,top;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #FFF8F3;
+    margin: 144px 125px 144px 125px;
+    padding: 220px;
+}
+.about-section{
+    justify-content: center;
+    align-items: center,top;
+    text-align: center;
+    margin-top: 50px;
+    margin: 144px 125px 0px 125px;
+    padding: 0px;
+}
+.about{
+    font-size: 35px;
+    font-weight: 700;
+    color: #000000;
+    font-family: "Open Sans",serif;
+}
+.about-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.skill{
+    justify-content: center;
+    align-items: center,top;
+    text-align: center;
+    margin-top: 0px;
+    background-color: #FFFFFF;
+    margin: 144px 125px 144px 125px;
+    padding: 20px;
+}
+.skillitem{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px;
+    gap: 30px;
+}
+.skills{
+    size-adjust: 90%;
+    background-color: #FFFFFF ;
+    row-gap: 20px;
+    margin: 0pz 125px 0px 125px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    padding: 30px;
+    width: 100%;
+    max-width: 300px;
+}
+.skills:hover {
+  transform: translateY(-5px);
+}
+
+.skills img {
+  width: 50px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.skills h3 {display: fl
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.skills p {
+  font-size: 0.9rem;
+  color: #555;
+}
+.resume{
+    text-align: center;
+    padding: 75px;
+}
+.edu-experience{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    gap: 30px
+}
+.education{
+    margin-left: 230px;
+}
+.experience{
+    margin-right: 277px;
+}
+.btn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Dark031{
+    color: rgba(117, 117, 117, 1);
+    font-size: 16;
+}
+.footer{
+    background-color: #FFF8F3
+}
+.lastsection{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    max-width: 1100px;  
+    margin: 0 auto;  
+    align-items: flex-start; 
+    padding: 40px 20px;  
+}
+.letsconnect{
+    flex: 1;
+}
+.
+.Lets-Message-me{
+   display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  max-width: 500px; 
+  margin: 0 auto; 
+}
+.contact-info { 
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contact-info input,
+.contact-info textarea {
+  padding: 15px;
+  border: none;
+  border-radius: 6px;
+  background-color: #ffffff;
+  font-size: 14px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.contact-info textarea {
+  resize: vertical;
+  min-height: 120px;
+}
